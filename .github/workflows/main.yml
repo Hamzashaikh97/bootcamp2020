@@ -26,11 +26,7 @@ jobs:
      with:
      version: 12
      
-   - name: Github for yarn
-     uses: Borales/action-yarn@v2.1.0
-     with: 
-          #yarn command
-      cmd: install
+  
       
    - name: creating build
      run: npm run build
